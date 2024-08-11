@@ -30,7 +30,7 @@ export default function Nav() {
                         </svg>
                     </button>
                 </div>
-                <ul className={`${isOpen ? 'block' : 'hidden'} lg:flex space-y-2 lg:space-y-0 lg:space-x-4 bg-white text-center absolute lg:static lg:bg-transparent w-full lg:w-auto top-24 left-0 lg:top-0 lg:left-auto`}>
+                <ul className={`${isOpen ? 'block' : 'hidden'} lg:flex space-y-2 lg:space-y-0 lg:space-x-4 bg-white z-10 text-center absolute lg:static lg:bg-transparent w-full lg:w-auto top-24 left-0 lg:top-0 lg:left-auto`}>
                     <li><a href="#home" className="block lg:inline-block py-2 px-4 font-semibold text-orange-400">Home</a></li>
                     <li><a href="#treatments" className="block lg:inline-block py-2 px-4 font-semibold">Treatments</a></li>
                     <li><a href="#home" className="block lg:inline-block py-2 px-4 font-semibold">Skin & FAQ</a></li>
